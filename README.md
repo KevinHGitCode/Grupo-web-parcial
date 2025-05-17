@@ -9,7 +9,7 @@ Este proyecto es una aplicación web desarrollada como parte del parcial del cur
 - Kevin Diaz Garcia.
 - Luis Felipe Zapata Pérez
 - Erick Sierra Martinez.
-- [Nombre del integrante 4]
+- Jorge Velasquez Suarez
 - [Nombre del integrante 5]
 - [Nombre del integrante 6]
 
