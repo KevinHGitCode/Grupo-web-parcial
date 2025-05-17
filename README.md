@@ -10,6 +10,7 @@ Este proyecto es una aplicación web desarrollada como parte del parcial del cur
 - [Nombre del integrante 2]
 - Erick Sierra Martinez.
 - [Nombre del integrante 4]
+- Luis Felipe Zapata Pérez
 - [Nombre del integrante 5]
 - [Nombre del integrante 6]
 
