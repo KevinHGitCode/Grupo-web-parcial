@@ -10,7 +10,7 @@ Este proyecto es una aplicación web desarrollada como parte del parcial del cur
 - Luis Felipe Zapata Pérez
 - Erick Sierra Martinez.
 - Jorge Velasquez Suarez
-- [Nombre del integrante 5]
+- Carmen Gomez Epinayu
 - [Nombre del integrante 6]
 
 ## Tecnologías Utilizadas
