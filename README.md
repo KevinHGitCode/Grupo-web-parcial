@@ -11,7 +11,7 @@ Este proyecto es una aplicación web desarrollada como parte del parcial del cur
 - Erick Sierra Martinez.
 - Jorge Velasquez Suarez
 - Carmen Gomez Epinayu
-- [Nombre del integrante 6]
+- Liz Tatiana Martinez Madrid
 
 ## Tecnologías Utilizadas
 - HTML, CSS, JavaScript
