@@ -6,7 +6,7 @@ Este proyecto es una aplicación web desarrollada como parte del parcial del cur
 
 
 ## Integrantes
-- Kevin Diaz Garcia
+- Kevin Diaz Garcia.
 - [Nombre del integrante 2]
 - [Nombre del integrante 3]
 - [Nombre del integrante 4]
