@@ -3,7 +3,7 @@
 ## Descripción
 Este proyecto es una aplicación web desarrollada como parte del parcial del curso. Su objetivo es demostrar habilidades en desarrollo web, incluyendo frontend, backend.
 
-*Sitio web:* <a href="https://kevinhgitcode.github.io/Grupo-web-parcial/" target="_blank">https://kevinhgitcode.github.io/Grupo-web-parcial/</a>
+*Sitio web:* <a href="https://kevinhgitcode.github.io/Grupo-web-parcial/">https://kevinhgitcode.github.io/Grupo-web-parcial/</a>
 
 ## Integrantes
 - Kevin Diaz Garcia.
