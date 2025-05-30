@@ -1,290 +1,376 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <title>Desarrollo Web Front-End 2025 | Uniguajira</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
     <!-- Header / Navbar -->
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo-uniguajira.svg" alt="Logo Uniguajira" height="50">
-                    <span>Front-End 2025</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#intro">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#programa">Programa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#alumnos">Alumnos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#profesores">Profesores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#recursos">Recursos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        
-        <!-- Banner principal -->
-        <div class="banner-principal">
-            <div class="container">
-                <div class="row align-items-center py-5">
-                    <div class="col-lg-6">
-                        <h1>Desarrollo Web Front-End 2025</h1>
-                        <p class="lead">Aprende las últimas tecnologías y herramientas para crear sitios web modernos y atractivos.</p>
-                        <a href="#programa" class="btn btn-primary btn-lg">Ver programa</a>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="images/desarrollo-web-curso.webp" alt="Desarrollo Web Front-End" class="img-fluid">
-                    </div>
-                </div>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/logo-uniguajira.svg"
+              alt="Logo Uniguajira"
+              height="50"
+            />
+            <span>Front-End 2025</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#intro">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#programa">Programa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#alumnos">Alumnos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#profesores">Profesores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recursos">Recursos</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+
+      <!-- Banner principal -->
+      <div class="banner-principal">
+        <div class="container">
+          <div class="row align-items-center py-5">
+            <div class="col-lg-6">
+              <h1>Desarrollo Web Front-End 2025</h1>
+              <p class="lead">
+                Aprende las últimas tecnologías y herramientas para crear sitios
+                web modernos y atractivos.
+              </p>
+              <a href="#programa" class="btn btn-primary btn-lg"
+                >Ver programa</a
+              >
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="images/desarrollo-web-curso.webp"
+                alt="Desarrollo Web Front-End"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Sección Intro -->
     <section id="intro" class="seccion-intro py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2 text-center">
-                    <h2 class="mb-4">Bienvenidos al Curso</h2>
-                    <p class="lead">El curso de Desarrollo Web Front-End 2025 de Uniguajira está diseñado para formar profesionales con habilidades técnicas y creativas en el diseño y desarrollo de interfaces web modernas.</p>
-                    <p>A lo largo del curso, aprenderás HTML5, CSS3, JavaScript y frameworks como Bootstrap para crear sitios web responsivos y atractivos. Además, conocerás las mejores prácticas de accesibilidad y rendimiento para garantizar experiencias de usuario óptimas.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-center">
+            <h2 class="mb-4">Bienvenidos al Curso</h2>
+            <p class="lead">
+              El curso de Desarrollo Web Front-End 2025 de Uniguajira está
+              diseñado para formar profesionales con habilidades técnicas y
+              creativas en el diseño y desarrollo de interfaces web modernas.
+            </p>
+            <p>
+              A lo largo del curso, aprenderás HTML5, CSS3, JavaScript y
+              frameworks como Bootstrap para crear sitios web responsivos y
+              atractivos. Además, conocerás las mejores prácticas de
+              accesibilidad y rendimiento para garantizar experiencias de
+              usuario óptimas.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Sección Programa del Curso -->
     <section id="programa" class="seccion-programa py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Programa del Curso</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title h5">Módulo 1: Fundamentos de HTML5</h3>
-                            <ul class="list-unstyled">
-                                <li>• Estructura básica de HTML5</li>
-                                <li>• Etiquetas semánticas</li>
-                                <li>• Formularios y validación</li>
-                                <li>• Multimedia en HTML5</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title h5">Módulo 2: CSS3 y Diseño Responsivo</h3>
-                            <ul class="list-unstyled">
-                                <li>• Selectores y propiedades CSS</li>
-                                <li>• Flexbox y Grid</li>
-                                <li>• Media queries</li>
-                                <li>• Animaciones y transiciones</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title h5">Módulo 3: Bootstrap y Frameworks</h3>
-                            <ul class="list-unstyled">
-                                <li>• Sistema de grid</li>
-                                <li>• Componentes Bootstrap</li>
-                                <li>• Personalización con Sass</li>
-                                <li>• Optimización para producción</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="text-center mb-5">Programa del Curso</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title h5">Módulo 1: Fundamentos de HTML5</h3>
+                <ul class="list-unstyled">
+                  <li>• Estructura básica de HTML5</li>
+                  <li>• Etiquetas semánticas</li>
+                  <li>• Formularios y validación</li>
+                  <li>• Multimedia en HTML5</li>
+                </ul>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title h5">
+                  Módulo 2: CSS3 y Diseño Responsivo
+                </h3>
+                <ul class="list-unstyled">
+                  <li>• Selectores y propiedades CSS</li>
+                  <li>• Flexbox y Grid</li>
+                  <li>• Media queries</li>
+                  <li>• Animaciones y transiciones</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title h5">Módulo 3: Bootstrap y Frameworks</h3>
+                <ul class="list-unstyled">
+                  <li>• Sistema de grid</li>
+                  <li>• Componentes Bootstrap</li>
+                  <li>• Personalización con Sass</li>
+                  <li>• Optimización para producción</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Sección Alumnos -->
     <section id="alumnos" class="seccion-alumnos py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Nuestros Alumnos</h2>
-            <div class="row g-4">
-                <div class="col">
-                    <div class="alumno-card">
-                        <img src="images/alumno1.avif" alt="Alumno 1" class="img-fluid rounded-circle mb-3">
-                        <h3 class="h5">James Rodríguez</h3>
-                        <p>Estudiante de Ingeniería de Sistemas con interés en el desarrollo de interfaces web interactivas.</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="alumno-card">
-                        <img src="images/alumno2.webp" alt="Alumno 2" class="img-fluid rounded-circle mb-3">
-                        <h3 class="h5">Shakira Martinez</h3>
-                        <p>Diseñadora gráfica ampliando sus conocimientos en desarrollo web front-end.</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="alumno-card">
-                        <img src="images/alumno3.jpg" alt="Alumno 3" class="img-fluid rounded-circle mb-3">
-                        <h3 class="h5">Ferxxo mor</h3>
-                        <p>Entusiasta de la tecnología con experiencia previa en back-end buscando completar sus habilidades.</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="alumno-card">
-                        <img src="images/alumno4.jpg" alt="Alumno 4" class="img-fluid rounded-circle mb-3">
-                        <h3 class="h5">Francia Marquez</h3>
-                        <p>Estudiante de último año con interés en desarrollo de aplicaciones web progresivas.</p>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="text-center mb-5">Nuestros Alumnos</h2>
+        <div class="row g-4">
+          <div class="col">
+            <div class="alumno-card">
+              <img
+                src="images/alumno1.avif"
+                alt="Alumno 1"
+                class="img-fluid rounded-circle mb-3"
+              />
+              <h3 class="h5">James Rodríguez</h3>
+              <p>
+                Estudiante de Ingeniería de Sistemas con interés en el
+                desarrollo de interfaces web interactivas.
+              </p>
             </div>
+          </div>
+          <div class="col">
+            <div class="alumno-card">
+              <img
+                src="images/alumno2.webp"
+                alt="Alumno 2"
+                class="img-fluid rounded-circle mb-3"
+              />
+              <h3 class="h5">Shakira Martinez</h3>
+              <p>
+                Diseñadora gráfica ampliando sus conocimientos en desarrollo web
+                front-end.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="alumno-card">
+              <img
+                src="images/alumno3.jpg"
+                alt="Alumno 3"
+                class="img-fluid rounded-circle mb-3"
+              />
+              <h3 class="h5">Ferxxo mor</h3>
+              <p>
+                Entusiasta de la tecnología con experiencia previa en back-end
+                buscando completar sus habilidades.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="alumno-card">
+              <img
+                src="images/alumno4.jpg"
+                alt="Alumno 4"
+                class="img-fluid rounded-circle mb-3"
+              />
+              <h3 class="h5">Francia Patricia</h3>
+              <p>
+                Estudiante de último año con interés en desarrollo de
+                aplicaciones web progresivas.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Sección Profesores -->
     <section id="profesores" class="seccion-profesores py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Nuestros Profesores</h2>
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="card mb-3">
-                        <div class="row g-0 alto100">
-                            <div class="col-md-4">
-                                <img src="images/lic aguilar.webp" alt="Profesor 1" class="img-fluid rounded-start h-100 object-fit-cover">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h3 class="card-title h5">Prof. Roberto Gómez</h3>
-                                    <p class="card-text">Especialista en desarrollo front-end con más de 10 años de experiencia en la industria y 5 años como docente universitario.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <h2 class="text-center mb-5">Nuestros Licenciados</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <div class="row g-0 alto100">
+                <div class="col-md-4">
+                  <img
+                    src="images/lic aguilar.webp"
+                    alt="Profesor 1"
+                    class="img-fluid rounded-start h-100 object-fit-cover"
+                  />
                 </div>
-                <div class="col-md-6">
-                    <div class="card mb-3">
-                        <div class="row g-0 alto100">
-                            <div class="col-md-4">
-                                <img src="images/beti mor.jpg" alt="Profesor 2" class="img-fluid rounded-start h-100 object-fit-cover">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h3 class="card-title h5">Prof. María Jiménez</h3>
-                                    <p class="card-text">Ingeniera de software con especialización en interfaces de usuario y experiencia de usuario (UI/UX).</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Lic. Aguilar</h3>
+                    <p class="card-text">
+                      Especialista en desarrollo front-end con más de 10 años de
+                      experiencia en la industria y 5 años como docente
+                      universitario.
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <div class="row g-0 alto100">
+                <div class="col-md-4">
+                  <img
+                    src="images/beti mor.jpg"
+                    alt="Profesor 2"
+                    class="img-fluid rounded-start h-100 object-fit-cover"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Lic. Bety la maluca</h3>
+                    <p class="card-text">
+                      Ingeniera de software con especialización en interfaces de
+                      usuario y experiencia de usuario (UI/UX).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Sección Recursos -->
     <section id="recursos" class="seccion-recursos py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Recursos y Herramientas</h2>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title h5">Documentación</h3>
-                            <ul class="list-unstyled">
-                                <li>• <a href="#">Manual de HTML5</a></li>
-                                <li>• <a href="#">Guía de CSS3</a></li>
-                                <li>• <a href="#">Documentación Bootstrap</a></li>
-                                <li>• <a href="#">Estándares de accesibilidad web</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title h5">Software recomendado</h3>
-                            <ul class="list-unstyled">
-                                <li>• Visual Studio Code</li>
-                                <li>• Adobe XD / Figma</li>
-                                <li>• GitHub Desktop</li>
-                                <li>• Chrome DevTools</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title h5">Tutoriales y cursos</h3>
-                            <ul class="list-unstyled">
-                                <li>• <a href="#">Tutoriales en video</a></li>
-                                <li>• <a href="#">Ejercicios prácticos</a></li>
-                                <li>• <a href="#">Retos semanales</a></li>
-                                <li>• <a href="#">Proyectos guiados</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="text-center mb-5">Recursos y Herramientas</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title h5">Documentación</h3>
+                <ul class="list-unstyled">
+                  <li>• <a href="#">Manual de HTML5</a></li>
+                  <li>• <a href="#">Guía de CSS3</a></li>
+                  <li>• <a href="#">Documentación Bootstrap</a></li>
+                  <li>• <a href="#">Estándares de accesibilidad web</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title h5">Software recomendado</h3>
+                <ul class="list-unstyled">
+                  <li>• Visual Studio Code</li>
+                  <li>• Adobe XD / Figma</li>
+                  <li>• GitHub Desktop</li>
+                  <li>• Chrome DevTools</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title h5">Tutoriales y cursos</h3>
+                <ul class="list-unstyled">
+                  <li>• <a href="#">Tutoriales en video</a></li>
+                  <li>• <a href="#">Ejercicios prácticos</a></li>
+                  <li>• <a href="#">Retos semanales</a></li>
+                  <li>• <a href="#">Proyectos guiados</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3 class="h5">Desarrollo Web Front-End 2025</h3>
-                    <p>Universidad de La Guajira<br>
-                    Facultad de Ingeniería<br>
-                    Programa de Ingeniería de Sistemas</p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="h5">Enlaces útiles</h3>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Plataforma virtual</a></li>
-                        <li><a href="#">Calendario académico</a></li>
-                        <li><a href="#">Preguntas frecuentes</a></li>
-                        <li><a href="#">Soporte técnico</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="h5">Contacto</h3>
-                    <ul class="list-unstyled">
-                        <li>📧 cursowebfront@uniguajira.edu.co</li>
-                        <li>📱 +57 300 123 4567</li>
-                        <li>🌐 www.uniguajira.edu.co</li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col text-center">
-                    <p class="small m-0">© 2025 Universidad de La Guajira. Todos los derechos reservados.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="h5">Desarrollo Web Front-End 2025</h3>
+            <p>
+              Universidad de La Guajira<br />
+              Facultad de Ingeniería<br />
+              Programa de Ingeniería de Sistemas
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="h5">Enlaces útiles</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Plataforma virtual</a></li>
+              <li><a href="#">Calendario académico</a></li>
+              <li><a href="#">Preguntas frecuentes</a></li>
+              <li><a href="#">Soporte técnico</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3 class="h5">Contacto</h3>
+            <ul class="list-unstyled">
+              <li>📧 cursowebfront@uniguajira.edu.co</li>
+              <li>📱 +57 300 123 4567</li>
+              <li>🌐 www.uniguajira.edu.co</li>
+            </ul>
+          </div>
         </div>
+        <hr />
+        <div class="row">
+          <div class="col text-center">
+            <p class="small m-0">
+              © 2025 Universidad de La Guajira. Todos los derechos reservados.
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
