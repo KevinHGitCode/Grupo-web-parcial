@@ -20,11 +20,11 @@ Este proyecto es una aplicación web desarrollada como parte del parcial del cur
 ## Instalación
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/usuario/proyecto-web-parcial.git
+   git clone https://github.com/KevinHGitCode/Grupo-web-parcial.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
-   cd proyecto-web-parcial
+   cd Grupo-web-parcial
    ```
 
 ## Uso
