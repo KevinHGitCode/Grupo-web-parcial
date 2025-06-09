@@ -2,56 +2,70 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Perfil de ]</title>
-    <meta name="author" content="Nombre del Grupo">
-    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Erick Sierra - Grupo 3</title>
+    <link rel="stylesheet" href="/estilos.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Grupo 3</a>
+            <a href="index.html" class="back-btn">← Volver al inicio</a>
+        </div>
+    </nav>
 
-    <a href="index.html">Volver al inicio</a>
-    <div class="contenido-perfil">
-        <div class="perfil">
-            <img src="public/image/erick.jpg" alt="Foto de " width="150">
-            <div class="info-perfil">
-                <h1>Nombre</h1>
-                <p>Ingeniria de sistemas</p>
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="profile-header">
+                <img src="public/image/erick.jpg" alt="Foto de Erick Sierra" class="profile-image">
+                <div class="profile-info">
+                    <h1>Erick Sierra</h1>
+                    <p class="role">Estudiante - Ingeniería de Sistemas</p>
+                </div>
+            </div>
+
+            <div class="section biography">
+                <h2>Biografía</h2>
+                <p>Soy estudiante apasionado por la tecnología y el desarrollo de interfaces de usuario.</p>
+            </div>
+
+            <div class="info-grid">
+                <div class="section formation">
+                    <h2>Formación</h2>
+                    <ul class="formation-list">
+                        <li>Estudiante</li>
+                        <li>Ingeniería de Sistemas</li>
+                        <li>Séptimo Semestre</li>
+                        <li>Universidad de La Guajira</li>
+                    </ul>
+                </div>
+
+                <div class="section skills">
+                    <h2>Habilidades</h2>
+                    <div class="skills-container">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">HTML/CSS básico</span>
+                        <span class="skill-tag">JavaScript básico</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section contact-section">
+                <h2>Contacto</h2>
+                <div class="contact-links">
+                    <a href="mailto:emiguelsierra@uniguajira.edu.co" class="contact-link">📧 Email</a>
+                    <a href="https://ig.com/" class="contact-link" target="_blank">📷 Instagram</a>
+                    <a href="https://linkedin.com/" class="contact-link" target="_blank">💼 LinkedIn</a>
+                </div>
             </div>
         </div>
-    
-        <div class="biografia">
-            <h2>Biografía</h2>
-            <p>Soy estudiante y apasiado por a tecnologia...</p>
-        </div>
-    
-        <div class="flex">
-            <div class="formacion">
-                <h2>Formación</h2>
-                <ul>
-                    <li>Estudiante</li>
-                    <li>Ingenieria de sistemas</li>
-                    <li>Septimo semestre</li>
-                    <li>Universidad de La Guajira</li>
-                </ul>
-            </div>
-        
-            <div class="habilidades">
-                <h2>Habilidades</h2>
-                <ul>
-                    <li>Figma</li>
-                    <li>HTML/CSS básico</li>
-                    <li>JavaScript básico</li>
-                </ul>
-            </div>
-        </div>
-    
-        <div class="contacto">
-            <h2>Contacto</h2>
-            <a href="mailto:emiguelsierra@uniguajira.edu.co">emiguelsierra@uniguajira.edu.co</a> |
-            <a href="https://ig.com/">Instagram</a> |
-            <a href="https://linkedin.com/">LinkedIn</a>
-        </div>
-    
     </div>
 
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025-1 Grupo 3 - Universidad de La Guajira</p>
+            <p>Estudiantes de Ingeniería de Sistemas - Séptimo Semestre</p>
+        </div>
+    </footer>
 </body>
 </html>

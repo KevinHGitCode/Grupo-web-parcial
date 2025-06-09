@@ -2,56 +2,96 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Perfil de [Nombre]</title>
-    <meta name="author" content="Nombre del Grupo">
-    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de [Nombre] - Grupo 3</title>
+    <link rel="stylesheet" href="/estilos.css">
+
 </head>
 <body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Grupo 3</a>
+            <a href="index.html" class="back-btn">
+                ← Volver al inicio
+            </a>
+        </div>
+    </nav>
 
-    <a href="index.html">Volver al inicio</a>
-    <div class="contenido-perfil">
-        <div class="perfil">
-            <img src="/public/image/foto.jfif" alt="Foto de " width="150">
-            <div class="info-perfil">
-                <h1>Nombre</h1>
-                <p>Ingeniria de sistemas</p>
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="profile-header">
+                <img src="public/image/placeholder.jpg" alt="Foto de [Nombre]" class="profile-image">
+                <div class="profile-info">
+                    <h1>[Nombre Completo]</h1>
+                    <p class="role">[Rol] - Ingeniería de Sistemas</p>
+                </div>
+            </div>
+
+            <div class="section biography">
+                <h2>Biografía</h2>
+                <p>[Descripción personal del estudiante, sus aspiraciones, intereses y motivaciones en el campo de la ingeniería de sistemas]</p>
+            </div>
+
+            <div class="info-grid">
+                <div class="section formation">
+                    <h2>Formación</h2>
+                    <ul class="formation-list">
+                        <li>Estudiante</li>
+                        <li>Ingeniería de Sistemas</li>
+                        <li>Séptimo Semestre</li>
+                        <li>Universidad de La Guajira</li>
+                    </ul>
+                </div>
+
+                <div class="section skills">
+                    <h2>Habilidades</h2>
+                    <div class="skills-container">
+                        <span class="skill-tag">[Habilidad 1]</span>
+                        <span class="skill-tag">[Habilidad 2]</span>
+                        <span class="skill-tag">[Habilidad 3]</span>
+                        <!-- Agregar más habilidades según corresponda -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="section contact-section">
+                <h2>Contacto</h2>
+                <div class="contact-links">
+                    <a href="mailto:[email]@uniguajira.edu.co" class="contact-link">
+                        📧 Email
+                    </a>
+                    <a href="[link-instagram]" class="contact-link" target="_blank">
+                        📷 Instagram
+                    </a>
+                    <a href="[link-linkedin]" class="contact-link" target="_blank">
+                        💼 LinkedIn
+                    </a>
+                </div>
             </div>
         </div>
-    
-        <div class="biografia">
-            <h2>Biografía</h2>
-            <p>Soy diseñadora con 3 años de experiencia en creación de interfaces...</p>
-        </div>
-    
-        <div class="flex">
-            <div class="formacion">
-                <h2>Formación</h2>
-                <ul>
-                    <li>Estudiante</li>
-                    <li>Ingenieria de sistemas</li>
-                    <li>Septimo semestre</li>
-                    <li>Universidad de La Guajira</li>
-                </ul>
-            </div>
-        
-            <div class="habilidades">
-                <h2>Habilidades</h2>
-                <ul>
-                    <li>Figma</li>
-                    <li>HTML/CSS básico</li>
-                    <li>JavaScript básico</li>
-                </ul>
-            </div>
-        </div>
-    
-        <div class="contacto">
-            <h2>Contacto</h2>
-            <a href="mailto:correo@uniguajira.edu.co">correo@uniguajira.edu.co</a> |
-            <a href="https://ig.com/">Instagram</a> |
-            <a href="https://linkedin.com/">LinkedIn</a>
-        </div>
-    
     </div>
 
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025-1 Grupo 3 - Universidad de La Guajira</p>
+            <p>Estudiantes de Ingeniería de Sistemas - Séptimo Semestre</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navegación suave (opcional)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
