@@ -4,48 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil de Liz Martinez Madrid - Grupo 3</title>
-    <link rel="stylesheet" href="estilos.css">
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts (opcional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: #f8fafc;
+            color: #222;
+        }
+        .navbar {
+            background: #0d6efd;
+        }
+        .navbar .navbar-brand, .navbar .nav-link, .navbar .back-btn {
+            color: #fff !important;
+            font-weight: 700;
+        }
+        .profile-card {
+            background: #fff;
+            border-radius: 1rem;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            border-bottom: 1px solid #e3e3e3;
+            padding-bottom: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #0d6efd;
+        }
+        .profile-info h1 {
+            margin-bottom: 0.3rem;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .role {
+            color: #0d6efd;
+            font-weight: 500;
+        }
+        .section h2 {
+            color: #0d6efd;
+            font-size: 1.2rem;
+            margin-bottom: 0.7rem;
+            font-weight: 700;
+        }
+        .formation-list li {
+            margin-bottom: 0.3rem;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .skill-tag {
+            background: #e7f1ff;
+            color: #0d6efd;
+            border-radius: 20px;
+            padding: 0.4em 1em;
+            font-size: 0.95em;
+            font-weight: 500;
+        }
+        .contact-link {
+            display: inline-block;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+            color: #0d6efd;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .contact-link:hover {
+            color: #084298;
+            text-decoration: underline;
+        }
+        .footer {
+            background: #0d6efd;
+            color: #fff;
+            padding: 1.2rem 0 0.5rem 0;
+            margin-top: 3rem;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .profile-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+            .profile-image {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo">Grupo 3</a>
-            <a href="index.html" class="back-btn">← Volver al inicio</a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Grupo 3</a>
+            <a href="index.html" class="btn btn-outline-light ms-auto back-btn">← Volver al inicio</a>
         </div>
     </nav>
 
-    <div class="profile-container">
-        <div class="profile-card">
+    <div class="container">
+        <div class="profile-card mx-auto mt-5" style="max-width: 700px;">
             <div class="profile-header">
-                <img src="public/image/liz.jfif" alt="Foto de Liz Martinez Madrid" class="profile-image">
+                <img src="public/image/liz.jfif" alt="Foto de Liz Martinez Madrid" class="profile-image shadow">
                 <div class="profile-info">
                     <h1>Liz Martinez Madrid</h1>
                     <p class="role">Estudiante - Ingeniería de Sistemas</p>
                 </div>
             </div>
 
-            <div class="section biography">
+            <div class="section biography mb-4">
                 <h2>Biografía</h2>
-                <p>Soy estudiante de ingeniería de sistemas, entusiasta de tecnologías y optimización de procesos con un enfoque en el desarrollo de sistemas para la gestión eficiente de recursos y datos.</p>
+                <p>
+                    Soy estudiante de ingeniería de sistemas, entusiasta de tecnologías y optimización de procesos con un enfoque en el desarrollo de sistemas para la gestión eficiente de recursos y datos.
+                </p>
             </div>
 
-            <div class="info-grid">
-                <div class="section formation">
+            <div class="row mb-4">
+                <div class="col-md-6 section formation">
                     <h2>Formación</h2>
-                    <ul class="formation-list">
+                    <ul class="formation-list list-unstyled">
                         <li>Estudiante</li>
                         <li>Ingeniería de Sistemas</li>
                         <li>Séptimo Semestre</li>
                         <li>Universidad de La Guajira</li>
                     </ul>
                 </div>
-
-                <div class="section skills">
+                <div class="col-md-6 section skills">
                     <h2>Habilidades</h2>
                     <div class="skills-container">
                         <span class="skill-tag">Java</span>
                         <span class="skill-tag">HTML</span>
                         <span class="skill-tag">Access</span>
+                        <span class="skill-tag">Trabajo en equipo</span>
+                        <span class="skill-tag">Resolución de problemas</span>
                     </div>
                 </div>
             </div>
@@ -53,19 +157,21 @@
             <div class="section contact-section">
                 <h2>Contacto</h2>
                 <div class="contact-links">
-                    <a href="mailto:ltmartinez@uniguajira.edu.co" class="contact-link">📧 Email</a>
-                    <a href="https://www.instagram.com/_25_liz?igsh=MXhhaG03Mmg4YWYyOQ==" class="contact-link" target="_blank">📷 Instagram</a>
-                    <a href="https://linkedin.com/" class="contact-link" target="_blank">💼 LinkedIn</a>
+                    <a href="mailto:ltmartinez@uniguajira.edu.co" class="contact-link"><i class="bi bi-envelope"></i> 📧 Email</a>
+                    <a href="https://www.instagram.com/_25_liz?igsh=MXhhaG03Mmg4YWYyOQ==" class="contact-link" target="_blank"><i class="bi bi-instagram"></i> 📷 Instagram</a>
+                    <a href="https://linkedin.com/" class="contact-link" target="_blank"><i class="bi bi-linkedin"></i> 💼 LinkedIn</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer mt-5">
         <div class="container">
             <p>&copy; 2025-1 Grupo 3 - Universidad de La Guajira</p>
             <p>Estudiantes de Ingeniería de Sistemas - Séptimo Semestre</p>
         </div>
     </footer>
+    <!-- Bootstrap JS (opcional, para componentes interactivos) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
